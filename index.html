@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES ❤️</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="background">
+    <div class="heart h1">❤️</div>
+    <div class="heart h2">💖</div>
+    <div class="heart h3">💕</div>
+    <div class="heart h4">💘</div>
+</div>
+
+<div class="phone">
+
+    <div class="top">
+
+        <div class="logo">
+            ❤️
+        </div>
+
+        <h1>FLAMES</h1>
+
+        <p>Relationship Calculator</p>
+
+    </div>
+
+    <div class="content">
+
+        <input
+        type="text"
+        id="name1"
+        placeholder="First Name">
+
+        <input
+        type="text"
+        id="name2"
+        placeholder="Second Name">
+
+        <button id="checkBtn">
+
+            <i class="fa-solid fa-heart"></i>
+
+            Check FLAMES
+
+        </button>
+
+        <div class="loader" id="loader">
+            <div class="spinner"></div>
+            <p>Calculating...</p>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="notice">
+            By checking the result, you agree that the names you enter will be submitted and stored.
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <button id="shareBtn">
+
+            <i class="fa-solid fa-share"></i>
+
+            Share
+
+        </button>
+
+        <button id="darkBtn">
+
+            <i class="fa-solid fa-moon"></i>
+
+            Dark Mode
+
+        </button>
+
+    </div>
+
+</div>
+
+<audio id="clickSound">
+<source src="click.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
